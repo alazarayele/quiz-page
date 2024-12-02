@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Quiz Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Quiz Page</h1>
+        <h2>Welcome to the HTML & CSS Quiz</h2>
+        <h3>Let's get started!</h3>
+    </header>
+
+    <section>
+        <h2>Introduction</h2>
+        <p><b>HTML (HyperText Markup Language)</b>  is the 
+            standard language used to create and design web pages. It structures content on the
+             web by using a series of elements, or "tags," that define different types of content
+              such as headings, paragraphs, images, links, tables, and more..</p>
+        <p><em>CSS (Cascading Style Sheets).</em>  is a stylesheet language used to control the
+             look and feel of a web page. While HTML provides the structure and content, CSS 
+             defines the layout, colors, fonts, spacing, and overall design. By separating the content (HTML) from the presentation (CSS),
+             it makes web development more efficient and flexible. </p>
+        <p><u>JavaScript (JS) .</u> is a programming language used to create interactive and 
+            dynamic elements on web pages. It enables functionality like form validation, 
+            animations, content updates without refreshing the page (via AJAX), and user 
+            interactions such as clicking buttons or hovering over elements. Unlike HTML and CSS,
+             which focus on structure
+             and style, JavaScript adds behavior to a website..</p>
+        <p>React is a popular JavaScript library used for building user interfaces, primarily for
+             single-page applications (SPAs). Developed and maintained by Facebook, React allows 
+             developers to create reusable UI components that efficiently update and render when 
+             data changes..</p>
+    </section>
+
+    <section>
+        <h2>My Favorite Fruits</h2>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Cherry</li>
+            <li>Grape</li>
+            <li>Orange</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Table of Data</h2>
+        <table>
+            <tr>
+                <th>Programming Language</th>
+                <th>Use Case</th>
+                <th>Strengths</th>
+            </tr>
+            <tr>
+                <td><a href="https://www.python.org/">Python	</a></td>
+                <td>Web development, Data Science, AI/ML, Automation	</td>
+                <td>Row 1, Cell 3Simple, Readable, Versatile
+            <tr>
+                <td>JavaScript React, Angular, Vue.js, Node.js</td>
+                <td>Web development (Frontend & Backend)</td>
+                <td>Fast, Dynamic, Interactivity</td>
+            </tr>
+            <tr>
+                <td>Java	
+                    	</td>
+                <td>Enterprise Applications, Android Development	</td>
+                <td>Robust, Scalable, Cross-platform</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Form Submission</h2>
+        <form action="/index.html" method="POST" >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            
+            <fieldset>
+                <legend>Choose an option:</legend>
+                <input type="radio" id="option1" name="option" value="option1">
+                <label for="option1">Option 1</label><br>
+                <input type="radio" id="option2" name="option" value="option2">
+                <label for="option2">Option 2</label><br>
+                <input type="radio" id="option3" name="option" value="option3">
+                <label for="option3">Option 3</label><br><br>
+            </fieldset>
+            
+            <label for="terms">Accept Terms:</label>
+            <input type="checkbox" id="terms" name="terms"><br><br>
+            
+            <label for="dropdown">Choose a country:</label>
+            <select id="dropdown" name="country">
+                <option value="us">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="canada">Canada</option>
+            </select><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Student Quiz Page - 2024</p>
+    </footer>
+</body>
+</html>
